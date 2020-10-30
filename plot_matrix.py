@@ -8,7 +8,8 @@ def generate_random_matrix(m, n):
 
 
 def save_matrix(matrix, file_name):
-    return plt.savefig(matrix, file_name)
+    plt.plot(matrix)
+    return plt.savefig(file_name)
     # raise NotImplementedError  # TODO: 删除该行，实现该函数功能
 
 
