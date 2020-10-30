@@ -10,6 +10,7 @@ def generate_random_matrix(m, n):
 def save_matrix(matrix, file_name):
     plt.plot(matrix)
     plt.savefig(file_name)
+    plt.show()
     # raise NotImplementedError  # TODO: 删除该行，实现该函数功能
 
 
