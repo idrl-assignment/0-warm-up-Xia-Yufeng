@@ -9,6 +9,7 @@ def save_matrix(matrix, file_name):
     plt.plot(matrix)
     plt.savefig(file_name)
     plt.show()
+    return()
 
 
 if __name__ == "__main__":
